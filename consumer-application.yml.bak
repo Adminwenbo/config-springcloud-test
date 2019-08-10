@@ -1,6 +1,7 @@
 server:
   port: 8080
 spring:
+  profiles: dev
   application:
     name: user-consumer # 应用名称
 eureka:
